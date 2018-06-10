@@ -9,7 +9,14 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+
+    char userInput[100];
+
+    printf("Please type in a word: ");
+    scanf("%s", userInput);
+    
+    // printf("Word: %s\n", userInput);
+    printf("Length of the string: %d\n", strlen(userInput));
+
+    return (0);
 }
